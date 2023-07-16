@@ -4,7 +4,7 @@ services:
     container_name: rabbitmq
     hostname: rabbitmq
     volumes:
-      - ./rabbitmq:/var/lib/rabbitmq
+      - /var/lib/rabbitmq
     ports:
       - "5672:5672"
       - "15672:15672"
